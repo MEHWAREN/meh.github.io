@@ -5,6 +5,13 @@
     text-align:center;
   }
  
+.fuck{
+    margin: 30vw auto;
+    color: red;
+    font-size:32px;
+}
+
+
 header{
     display: flex;
   align-items: center;
