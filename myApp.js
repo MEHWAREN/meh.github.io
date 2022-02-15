@@ -4,8 +4,6 @@ var bodyParser = require('body-parser');
 let firstName, lastName;
 absolutePath = __dirname + '/views/index.html'
 
-
-
 function re(req, res, next) {
   res.sendFile(absolutePath);
 }
