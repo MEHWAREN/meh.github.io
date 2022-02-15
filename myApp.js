@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 let firstName, lastName;
-absolutePath = __dirname + '/views/index.html'
+absolutePath = __dirname + '/index.html'
 
 function re(req, res, next) {
   res.sendFile(absolutePath);
